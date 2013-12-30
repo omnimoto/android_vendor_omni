@@ -52,3 +52,5 @@ PRODUCT_COPY_FILES += \
 
 # Add our overlays
 PRODUCT_PACKAGE_OVERLAYS += vendor/omni/overlay/common
+
+$(call inherit-product, vendor/omni/config/telephony.mk)
